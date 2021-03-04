@@ -7,14 +7,16 @@ import "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyB23Va3Eg--mo4s3_QCNJKws4U7kPgQTKw",
-  authDomain: "slack-clone-15.firebaseapp.com",
-  projectId: "slack-clone-15",
-  storageBucket: "slack-clone-15.appspot.com",
-  messagingSenderId: "370530886306",
-  appId: "1:370530886306:web:7a9f10ebbff13c3eb82dfb",
-  measurementId: "G-XKMKL84HX2",
+  //you will get everything you need below from firebase config
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
 };
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
